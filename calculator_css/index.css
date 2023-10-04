@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body {
+  background: linear-gradient(to right, #f9d423 0%, #ff4e50 100%);
+}
+.contain {
+  height: 95vh;
+   width: 100%;
+  background: url("../paper.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 35% 100%;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 35%;
+  padding: 1rem;
+}
+.calculator {
+   width: 40%;
+  height: 70vh;
+  background: #3a4452;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 18%;
+  box-shadow: 13px 13px 20px black;
+}
+.quest{
+  margin-top: 11%;
+  width: 32%;
+  height: 20%;
+font-size: 1.5rem;
+}
+.quest p{
+  padding: 5px;
+}
+
+form input {
+  width: 100%;
+  text-align: right;
+  box-shadow: none;
+  border: transparent;
+  outline: none;
+  border-radius: 10px;
+  background: white;
+  font-size: 2rem;
+  color: black;
+  padding: 1rem;
+}
+.btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: wrap;
+  margin-top: 20px;
+}
+button {
+  text-align: center;
+  width: 19%;
+  height: 4vh;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  border: 0;
+  font-size: 1.2rem;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+button:hover {
+  transform: translate(2px);
+  box-shadow: inset -5px -2px 8px #3a4452;
+  background: #2e3541;
+}
+#operator{
+  color: #33ffd8;
+}
